@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+  color: #222;
+}
+
+header {
+  background-image: url('../img/congruent_pentagon.png');
+  text-align: center;
+  padding: 30px 0;
+  font-size: 30px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: auto 20px;
+}
+
+.container .signup {
+  margin-top: 10px;
+  text-align: center
+}
+
+.container .signup .signup-button {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #222;
+  color: inherit;
+
+  transition: background 1s;
+}
+
+.container .signup .signup-button:hover {
+  background: #E7FFCA;
+}
+
+.next-meeting {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}

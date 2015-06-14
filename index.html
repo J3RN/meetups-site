@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Tech Collective Summer Meetups</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section class="outer-container">
+      <header>
+        <h1>Tech Collective Summer Meetups</h1>
+      </header>
+      <section class="container">
+        <section class="next-meeting">
+          <h2>Next Meeting</h2>
+          <strong>Topic:</strong> I have absolutely no idea<br />
+          <br />
+          <strong>Time:</strong> <time datetime="2015-06-10 20:00">June 11th, 20:00</time><br />
+          <strong>Where:</strong> Caldwell 120
+        </section>
+
+        <section class="signup">
+          <a class="signup-button" href="http://eepurl.com/bp56ZT">Join the mailing list</a>
+        </section>
+      </section>
+    </section>
+    <script>
+      var container = document.getElementsByClassName("container")[0];
+      var header = document.getElementsByTagName("header")[0];
+      container.style.height = String(window.innerHeight - header.clientHeight);
+    </script>
+  </body>
+</html>
