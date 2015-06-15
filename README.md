@@ -1,5 +1,5 @@
 # Tech Collective Summer Meetups Site
-A site for the Tech Collective Summer Meetups
+A site for the [Tech Collective Summer Meetups](http://j3rn.com/meetups)
 
 Very basic right now, just HTML, CSS, and a wee bit of JavaScript in the `index.html` file. All contributions welcome!
 
